@@ -46,5 +46,5 @@ def credit_card_number(prefixList, howMany=1, length=16):
     return result
 
 if __name__ == "__main__":
- fakecard = credit_card_number(['4388540057'], 15,16)
+ fakecard = credit_card_number(['45726202'], 30,16)
  print fakecard
